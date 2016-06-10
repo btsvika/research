@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/btsvika/research#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "requirejs": "^2.2.0"
+    "gulp": "^3.9.1"
   }
 }

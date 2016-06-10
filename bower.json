@@ -11,6 +11,9 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "jquery": "~3.0.0"
+    "jquery": "~3.0.0",
+    "backbone-amd": "~1.1.0",
+    "underscore-amd": "~1.5.2",
+    "requirejs": "~2.2.0"
   }
 }
