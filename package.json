@@ -1,0 +1,22 @@
+{
+  "name": "research",
+  "version": "1.0.0",
+  "description": "working with requireJs and backbone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btsvika/research.git"
+  },
+  "author": "tsvika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btsvika/research/issues"
+  },
+  "homepage": "https://github.com/btsvika/research#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
