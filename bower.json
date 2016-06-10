@@ -1,0 +1,16 @@
+{
+  "name": "research",
+  "version": "1.0.0",
+  "homepage": "https://github.com/btsvika/research",
+  "authors": [
+    "tsvika"
+  ],
+  "description": "for installing libreries",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "jquery": "~3.0.0"
+  }
+}
