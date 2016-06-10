@@ -1,5 +1,15 @@
-var gulp = require('gulp');
+var gulp = require('gulp'),
+    mainBowerFiles = require('main-bower-files'),
+    concat = require('gulp-concat');
 
-gulp.task('test', function () {
-    console.log('this is a test')
-});
+
+//gulp.task('copyFiles', function() {
+//    gulp.src('./bower_components/**/*min*.js')
+//        .pipe(gulp.dest('app/scripts/vendor'));
+//});
+
+
+gulp.task('bowerFiles', function () {
+    return gulp.src(mainBowerFiles(), { base: './bower_components' })
+            .pipe(gulp.dest('app/scripts/vendor'))
+    });

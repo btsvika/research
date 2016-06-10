@@ -10,7 +10,7 @@
   "moduleType": [],
   "license": "MIT",
   "private": true,
-  "devDependencies": {
+  "dependencies": {
     "jquery": "~3.0.0",
     "backbone-amd": "~1.1.0",
     "underscore-amd": "~1.5.2",
